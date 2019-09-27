@@ -1,0 +1,23 @@
+.bottombar {
+  float: left;
+  height: 70px;
+  width: 102%;
+  margin: 100px -20px 0 -20px;
+  min-width: 900px;
+  font-family: "Saira";
+  font-variant: small-caps;
+  color: white;
+  background-color: #3b79b3;
+}
+
+.bottombar_name {
+  float: left;
+  margin: 15px 10px 0 10%;
+  font-size: 30px;
+}
+
+.bottombar_text {
+  float: left;
+  margin: 20px 0 0 0;
+  font-size: 25px;
+}

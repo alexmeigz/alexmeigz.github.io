@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title> Alex Mei </title>
+    <link rel="stylesheet" href="./css/home.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div id="logo"> <a href="./index.html"> <img src="./photos/website_logo.jpg" height="100%"> </a> </div>
+        <a href="./foodtography.html"> Foodtography </a>
+
+        <div class="dropdown">
+          <button class="dropbtn"> <a href="./about.html"> About </a></button>
+          <div class="dropdown-content">
+            <a href="https://github.com/alexmeigz"> Github </a>
+            <a href="https://www.linkedin.com/in/alexmeigz/"> Linkedin </a>
+            <a href="mailto:alexmei@ucsb.edu"> Email </a>
+          </div>
+        </div>
+
+        <a href="./resume.pdf"> R&eacute;sum&eacute; </a>
+
+        <div class="dropdown">
+          <button class="dropbtn"> <a href="./projects.html"> Projects </a></button>
+          <div class="dropdown-content">
+            <a href="http://alexmeicooking.com/"> Alexmeicooking </a>
+          </div>
+        </div>
+
+        <a href="./index.html"> Home </a>
+      </div>
+
+      <div class="slideshow">
+        <div class="slides">
+          <img src="./photos/whale_watching.jpg" width="100%">
+        </div>
+
+        <div class="slides">
+          <img src="./photos/beach_sunset.JPG" width="100%">
+        </div>
+
+        <div class="slides">
+          <img src="./photos/paper_toss.JPG" width="100%">
+        </div>
+      </div>
+
+      <div class="welcome_page">
+        <div class="welcome_header">
+          Hello there!
+        </div>
+        <div class="welcome_text">
+            Welcome to my website! I am Alex Mei, currently a first-year student at the University of California: Santa Barbara
+            majoring in Computer Science and minoring in Statistical Sciences. On this site, you can discover my various
+            <a href="./projects.html">coding endeavors</a>, or, if you’re more inclined, my <a href="./foodtography.html">
+            photography ventures</a>. Feel free to browse around and please don’t hesitate to
+            <a href="mailto:alexmei@ucsb.edu">connect with me</a> if you have any questions!
+        </div>
+      </div>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3500);
+      }
+      </script>
+
+      <div class="bottombar">
+        <div class="bottombar_name">
+          Alex Mei |
+        </div>
+        <div class="bottombar_text">
+          &copy; 2019 All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+@import "nav.css";
+@import "fonts.css";
+@import "bottombar.css";
+
+.wrapper {
+  min-width: 1000px;
+  margin-top: 80px;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #3b79b3;
+  font-weight: bold;
+}
+
+.fp_header {
+  float: left;
+  text-align: center;
+  width: 50%;
+  margin: 50px 40% 0 10%;
+  border-bottom: 2px solid black;
+  font-family: "Saira";
+  font-variant: small-caps;
+  font-size: 60px;
+}
+
+.fp_about {
+  float: left;
+  width: 75%;
+  font-family: "Abel";
+  font-size: 20px;
+  margin: 20px 15% 0 10%;
+  text-indent: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.selection_bar {
+  float: left;
+  margin: 75px 0 0 5%;
+  height: 60px;
+  width: 100%;
+  padding-right: 50px;
+  overflow: visible;
+  color: white;
+}
+
+.selection_element {
+    cursor: pointer;
+    outline: none;
+    float: left;
+    width: 150px;
+    border-radius: 10%;
+    margin: 0 2% 0 0;
+    background-color: #5d84a8;
+    text-decoration: none;
+    color: white;
+    font-family: "Saira";
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
+.selection_element:hover {
+    background-color: #3c5378;
+}
+
+.slideshow {
+    float: left;
+    margin: 50px 0 0 10%;
+    width: 25%;
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.textbox1, .textbox2, .textbox3, .textbox4, .textbox5 {
+  float: left;
+  width: 40%;
+  margin: 50px 0 0 5%;
+  min-height: 350px;
+  height: 26vw;
+}
+
+.text_header {
+  float: left;
+  font-family: "Saira";
+  font-variant: small-caps;
+  font-size: 40px;
+  margin: 0 10px -20px 0px;
+}
+
+.text_context {
+  float: left;
+  font-family: "Saira";
+  font-size: 24px;
+  font-style: italic;
+  margin: 18px 10px 0 0px;
+}
+
+
+.text_body {
+  float: left;
+  font-family: "Abel";
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+
+.clickers {
+  float: left;
+  margin: 20px 0 0 10%;
+  width: 25%;
+  min-width: 350px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 25px;
+  margin: 0 5px 0 5px;
+  background-color: #97c5f0;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.tactive {
+  background-color: #253959;
+}
+
+.dactive {
+  background-color: #253959;
+}
+
+.dot:hover {
+  background-color: #3c5378;
+}

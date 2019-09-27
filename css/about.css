@@ -1,0 +1,87 @@
+@import "nav.css";
+@import "fonts.css";
+@import "bottombar.css";
+
+.wrapper {
+  min-width: 1000px;
+  margin-top: 80px;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #3b79b3;
+  font-weight: bold;
+}
+
+.about_col {
+  float: left;
+  width: 55%;
+  margin: 30px 0 0 5%;
+
+}
+
+.about_header {
+  text-align: center;
+  margin: 0 27.5% 0 27.5%;
+  border-bottom: 2px solid black;
+  font-size: 70px;
+  font-family: "Saira";
+  font-variant: small-caps;
+}
+
+.about_text {
+  margin: 25px 10% 50px 10%;
+  font-family: "Abel";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 20px;
+}
+
+.photo_col {
+  float: left;
+  width: 25%;
+  margin: 75px 0 0 7.5%;
+}
+
+.contact {
+  float: left;
+  margin: 100px 0 0 0;
+  padding: 0 0 20px 0;
+  border: 1px solid black;
+  width: 80%;
+  min-width: 250px;
+}
+
+.contact_header {
+  text-align: center;
+  font-family: "Saira";
+  font-variant: small-caps;
+  font-size: 60px;
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+
+.contact_logo {
+  float: left;
+  width: 20%;
+  line-height: 60px;
+  margin: 15px 0 0 15%;
+}
+
+.contact_list {
+  float: left;
+  width: 40%;
+  font-family: "Saira";
+  font-variant: small-caps;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0 0 5px 5%;
+  display: block;
+}

@@ -1,0 +1,550 @@
+<html>
+  <head>
+    <title> Foodtography | Alex Mei </title>
+    <link rel="stylesheet" href="./css/foodtography.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div id="logo"> <a href="./index.html"> <img src="./photos/website_logo.jpg" height="100%"> </a> </div>
+        <a href="./foodtography.html"> Foodtography </a>
+
+        <div class="dropdown">
+          <button class="dropbtn"> <a href="./about.html"> About </a></button>
+          <div class="dropdown-content">
+            <a href="https://github.com/alexmeigz"> Github </a>
+            <a href="https://www.linkedin.com/in/alexmeigz/"> Linkedin </a>
+            <a href="mailto:alexmei@ucsb.edu"> Email </a>
+          </div>
+        </div>
+
+        <a href="./resume.pdf"> R&eacute;sum&eacute; </a>
+
+        <div class="dropdown">
+          <button class="dropbtn"> <a href="./projects.html"> Projects </a></button>
+          <div class="dropdown-content">
+            <a href="http://alexmeicooking.com/"> Alexmeicooking </a>
+          </div>
+        </div>
+
+        <a href="./index.html"> Home </a>
+      </div>
+      <div class="fp_header">
+        Foodtography & Photography
+      </div>
+      <div class="fp_about">
+        If you couldn’t tell already, I am a HUGE foodie. I love cooking and presenting food; I love to try new food;
+        I also love to capture the essence of foods in a snapshot to share with the world. Below, you can see a small
+        gallery of my Homemade food, as well as the best of my samples across numerous restaurants. Through cooking,
+        I developed a passion for photography, and I’ve expanded to capturing special moments in nature (in particular),
+        a sampling of which can be viewed below.
+      </div>
+
+      <div class="selection_bar">
+        <button class="selection_element" onclick="currentSet(1)"> Homemade </button>
+        <button class="selection_element" onclick="currentSet(2)"> Restaurant </button>
+        <button class="selection_element" onclick="currentSet(3)"> Sunset </button>
+        <button class="selection_element" onclick="currentSet(4)"> Hiking </button>
+        <!--
+        <button class="selection_element" onclick="currentSet(5)"> ???? </button>
+        -->
+      </div>
+
+      <!--homemade-->
+      <div class="photoset">
+        <div class="slideshow">
+          <div class="slides1">
+            <img src="./photos/rose_and_lychee.jpeg" width="100%">
+          </div>
+
+          <div class="slides1">
+            <img src="./photos/steak_and_lobster.jpeg" width="100%">
+          </div>
+
+          <div class="slides1">
+            <img src="./photos/strawberry_lemonade.jpeg" width="100%">
+          </div>
+
+          <div class="slides1">
+            <img src="./photos/beef_wellington.jpeg" width="100%">
+          </div>
+
+          <div class="slides1">
+            <img src="./photos/french_toast.jpeg" width="100%">
+          </div>
+        </div>
+
+        <div class="textbox1">
+          <div class="text_header">
+            Rose & Lychee Dessert
+          </div>
+          <div class="text_body">
+            Rose Ice Cream, Lychee Ice Cream, Chocolate Cookies, Raspberry Coulis,
+            Rose Macaron, Rose Petals, Strawberries, Freeze-Dried Strawberries
+          </div>
+        </div>
+
+        <div class="textbox1">
+          <div class="text_header">
+            Steak & Lobster
+          </div>
+          <div class="text_body">
+            Poached Maine Lobster, Tomato Coconut Curry, Pan-Seared Filet Mignon,
+            Chimichurri, Fresh Greens, Citrus, Microgreens
+          </div>
+        </div>
+
+        <div class="textbox1">
+          <div class="text_header">
+            Strawberry Lemonade
+          </div>
+          <div class="text_body">
+            Strawberries, Lemon, Cane Sugar
+          </div>
+        </div>
+
+        <div class="textbox1">
+          <div class="text_header">
+            Beef Wellington
+          </div>
+          <div class="text_body">
+            Filet Mignon, Mushroom Duxelle, Parma Ham, Puff Pastry, Red Wine Reduction, Fresh Greens
+          </div>
+        </div>
+
+        <div class="textbox1">
+          <div class="text_header">
+            French Toast
+          </div>
+          <div class="text_body">
+            Spiced Challah, Vanilla, Fresh Fruit, Maple Syrup, Confectioners' Sugar
+          </div>
+        </div>
+      </div>
+
+      <!--restaurant-->
+      <div class="photoset">
+        <div class="slideshow">
+          <div class="slides2">
+            <img src="./photos/swan_puffs.JPG" width="100%">
+          </div>
+
+          <div class="slides2">
+            <img src="./photos/tamarind_wings.JPG" width="100%">
+          </div>
+
+          <div class="slides2">
+            <img src="./photos/lobster_roll.JPG" width="100%">
+          </div>
+
+          <div class="slides2">
+            <img src="./photos/tuna_salad.JPG" width="100%">
+          </div>
+
+          <div class="slides2">
+            <img src="./photos/boba.JPG" width="100%">
+          </div>
+        </div>
+
+        <div class="textbox2">
+          <div class="text_header">
+            Taro Black Swan Puffs
+          </div>
+          <div class="text_context">
+            <a href="https://paletteteahouse.com"> Palette Tea House | San Francisco, CA </a>
+          </div>
+          <div class="text_body">
+            Charcoaled Taro Puff, Pork, Shrimp, Duck, Herbs; Herbal Tea; Palette Sauce Kit
+          </div>
+        </div>
+
+        <div class="textbox2">
+          <div class="text_header">
+            Tamarind Chicken Wings
+          </div>
+          <div class="text_context">
+            <a href="http://samasamakitchen.com/"> Sama Sama Kitchen | Santa Barbara, CA </a>
+          </div>
+          <div class="text_body">
+            Fried Chicken Wings, Tamarind Glaze, Herb Garnish; Housemade Tangerine Soda
+          </div>
+        </div>
+
+        <div class="textbox2">
+          <div class="text_header">
+            Maine Lobster Roll
+          </div>
+          <div class="text_context">
+            <a href="https://www.lurefishhouse.com/location/lure-fish-house-santa-barbara/"> Lure Fish House | Santa Barbara, CA </a>
+          </div>
+          <div class="text_body">
+            Maine Lobster, Celery Herb Dressing, Toasted Buttered Brioche; Sweet Potato Fries, Spicy Horseradish Aioli
+          </div>
+        </div>
+
+        <div class="textbox2">
+          <div class="text_header">
+            Peruvian Tuna Salad
+          </div>
+          <div class="text_context">
+            <a href="https://misturarestaurants.com/"> Mistura | San Luis Obispo, CA </a>
+          </div>
+          <div class="text_body">
+            Seared Chile-Rubbed Ahi Tuna, Citrus, Tender Greens, Edamame, Mango, Crispy Noodles, Miso Ginger Dressing; Passion Fruit Juice
+          </div>
+        </div>
+
+        <div class="textbox2">
+          <div class="text_header">
+            DYI Boba in a Jar
+          </div>
+          <div class="text_context">
+            <a href="http://www.milkandt.com/losangeles.html"> Milk + T | Los Angeles, CA </a>
+          </div>
+          <div class="text_body">
+            Black Tea, Cucumber, Watermelon, Lychee Jelly; Green Tea, Pineapple, Strawberry, Lychee Jelly, Tapioca Pearls
+          </div>
+        </div>
+      </div>
+
+      <!--sunset-->
+      <div class="photoset">
+        <div class="slideshow">
+          <div class="slides3">
+            <img src="./photos/beach1.JPG" width="100%">
+          </div>
+
+          <div class="slides3">
+            <img src="./photos/beach2.JPG" width="100%">
+          </div>
+
+          <div class="slides3">
+            <img src="./photos/beach3.JPG" width="100%">
+          </div>
+
+          <div class="slides3">
+            <img src="./photos/beach4.JPG" width="100%">
+          </div>
+
+          <div class="slides3">
+            <img src="./photos/beach5.JPG" width="100%">
+          </div>
+        </div>
+
+        <div class="textbox3">
+          <div class="text_header">
+            Sunset Star
+          </div>
+          <div class="text_context">
+            Campus Lagoon | Santa Barbara, CA
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox3">
+          <div class="text_header">
+            Nightly Palm Trees
+          </div>
+          <div class="text_context">
+            San Nicholas Hall | Santa Barbara, CA
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox3">
+          <div class="text_header">
+            Mountainous Sunset
+          </div>
+          <div class="text_context">
+              Manzanita Beach | Santa Barbara, CA
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox3">
+          <div class="text_header">
+            Beauty and the Beach
+          </div>
+          <div class="text_context">
+            Manzanita Beach | Santa Barbara, CA
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox3">
+          <div class="text_header">
+            Break of Dusk
+          </div>
+          <div class="text_context">
+            Campus Lagoon | Los Angeles, CA
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+      </div>
+
+      <!--hiking-->
+      <div class="photoset">
+        <div class="slideshow">
+          <div class="slides4">
+            <img src="./photos/wuyishan1.JPG" width="100%">
+          </div>
+
+          <div class="slides4">
+            <img src="./photos/wuyishan2.JPG" width="100%">
+          </div>
+
+          <div class="slides4">
+            <img src="./photos/wuyishan3.JPG" width="100%">
+          </div>
+
+          <div class="slides4">
+            <img src="./photos/hike1.JPG" width="100%">
+          </div>
+
+          <div class="slides4">
+            <img src="./photos/hike2.JPG" width="100%">
+          </div>
+        </div>
+
+        <div class="textbox4">
+          <div class="text_header">
+            Waterfall, Waterfall!
+          </div>
+          <div class="text_context">
+             | Wuyishan, China
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox4">
+          <div class="text_header">
+            Stone Carvings
+          </div>
+          <div class="text_context">
+            | Wuyishan, China
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox4">
+          <div class="text_header">
+            Top of the Hill
+          </div>
+          <div class="text_context">
+            | Wuyishan, China
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox4">
+          <div class="text_header">
+            Small Lil' Creek
+          </div>
+          <div class="text_context">
+            | China
+          </div>
+          <div class="text_body">
+
+          </div>
+        </div>
+
+        <div class="textbox4">
+          <div class="text_header">
+            Gateway
+          </div>
+          <div class="text_context">
+             | China
+          </div>
+          <div class="text_body">
+    
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="photoset">
+        <div class="slideshow">
+          <div class="slides5">
+            <img src="./photos/swan_puffs.JPG" width="100%">
+          </div>
+
+          <div class="slides5">
+            <img src="./photos/tamarind_wings.JPG" width="100%">
+          </div>
+
+          <div class="slides5">
+            <img src="./photos/lobster_roll.JPG" width="100%">
+          </div>
+
+          <div class="slides5">
+            <img src="./photos/tuna_salad.JPG" width="100%">
+          </div>
+
+          <div class="slides5">
+            <img src="./photos/boba.JPG" width="100%">
+          </div>
+        </div>
+
+        <div class="textbox5">
+          <div class="text_header">
+            Taro Black Swan Puffs
+          </div>
+          <div class="text_context">
+            <a href="https://paletteteahouse.com"> Palette Tea House | San Francisco, CA </a>
+          </div>
+          <div class="text_body">
+            Charcoaled Taro Puff, Pork, Shrimp, Duck, Herbs; Herbal Tea; Palette Sauce Kit
+          </div>
+        </div>
+
+        <div class="textbox5">
+          <div class="text_header">
+            Tamarind Chicken Wings
+          </div>
+          <div class="text_context">
+            <a href="http://samasamakitchen.com/"> Sama Sama Kitchen | Santa Barbara, CA </a>
+          </div>
+          <div class="text_body">
+            Fried Chicken Wings, Tamarind Glaze, Herb Garnish; Housemade Tangerine Soda
+          </div>
+        </div>
+
+        <div class="textbox5">
+          <div class="text_header">
+            Maine Lobster Roll
+          </div>
+          <div class="text_context">
+            <a href="https://www.lurefishhouse.com/location/lure-fish-house-santa-barbara/"> Lure Fish House | Santa Barbara, CA </a>
+          </div>
+          <div class="text_body">
+            Maine Lobster, Celery Herb Dressing, Toasted Buttered Brioche; Sweet Potato Fries, Spicy Horseradish Aioli
+          </div>
+        </div>
+
+        <div class="textbox5">
+          <div class="text_header">
+            Peruvian Tuna Salad
+          </div>
+          <div class="text_context">
+            <a href="https://misturarestaurants.com/"> Mistura | San Luis Obispo, CA </a>
+          </div>
+          <div class="text_body">
+            Seared Chile-Rubbed Ahi Tuna, Citrus, Tender Greens, Edamame, Mango, Crispy Noodles, Miso Ginger Dressing; Passion Fruit Juice
+          </div>
+        </div>
+
+        <div class="textbox5">
+          <div class="text_header">
+            DYI Boba in a Jar
+          </div>
+          <div class="text_context">
+            <a href="http://www.milkandt.com/losangeles.html"> Milk + T | Los Angeles, CA </a>
+          </div>
+          <div class="text_body">
+            Black Tea, Cucumber, Watermelon, Lychee Jelly; Green Tea, Pineapple, Strawberry, Lychee Jelly, Tapioca Pearls
+          </div>
+        </div>
+      </div>
+      -->
+
+      <div class="clickers" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+      <div class="bottombar">
+        <div class="bottombar_name">
+          Alex Mei |
+        </div>
+        <div class="bottombar_text">
+          &copy; 2019 All Rights Reserved.
+        </div>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      var setIndex = 1;
+      var currentSlides = "slides1";
+      var currentTextbox = "textbox1";
+      showSet(1);
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function currentSet(n) {
+        currentSlides = "slides" + String(n)
+        currentTextbox = "textbox" + String(n)
+        showSet(setIndex = n);
+      }
+
+      function showSet(n) {
+        var i;
+        var sets = document.getElementsByClassName("photoset");
+        var tabs = document.getElementsByClassName('selection_element');
+        if (n > sets.length) {
+          setIndex = 1;
+        }
+        if (n < 1) {
+          setIndex = sets.length;
+        }
+        for (i = 0; i < sets.length; i++) {
+          sets[i].style.display = "none";
+        }
+        for (i = 0; i < tabs.length; i++) {
+          tabs[i].className = tabs[i].className.replace(" tactive", "");
+        }
+        sets[setIndex-1].style.display = "block";
+        tabs[setIndex-1].className += " tactive";
+        slideIndex = 1;
+        showSlides(slideIndex);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName(currentSlides);
+        var textbox = document.getElementsByClassName(currentTextbox);
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          textbox[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" dactive", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        textbox[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " dactive";
+      }
+
+      </script>
+
+    </div>
+  </body>
+</html>
