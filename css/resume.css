@@ -1,0 +1,23 @@
+@import "nav.css";
+@import "fonts.css";
+@import "bottombar.css";
+
+.wrapper {
+  min-width: 1000px;
+  margin-top: 80px;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #3b79b3;
+  font-weight: bold;
+}
+
+.pdf {
+  margin: 100px 10% 0 10%;
+}
