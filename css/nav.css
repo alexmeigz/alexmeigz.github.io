@@ -7,14 +7,14 @@
   height: 90px;
   width: calc(100% - 50px);
   padding-right: 50px;
-  min-width: 900px;
+  min-width: 800px;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   font-family: "Saira";
   font-variant: small-caps;
   font-size: 40px;
   background-color: #2a5a87;
-  overflow: visible;
+  overflow: hidden;
 }
 
 #logo {
