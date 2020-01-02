@@ -1,29 +1,9 @@
 @import "nav.css";
 @import "fonts.css";
 @import "bottombar.css";
+@import "basic.css";
 
-.wrapper {
-  min-width: 1000px;
-  margin-top: 80px;
-}
-
-a:link, a:visited, a:active{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  text-decoration: none;
-  color: #3b79b3;
-  font-weight: bold;
-}
-
-.projectbox {
-  float: left;
-  margin: 50px 0 0 5%;
-  width: 25%;
-  min-width: 300px;
-  height: 25vw;
-  min-height: 300px;
-  border-radius: 100px;
+.card {
+  border: none;
+  margin-bottom: 50px;
 }

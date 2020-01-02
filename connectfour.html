@@ -1,92 +1,133 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Connect Four</title>
-    <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-      * {
-        color: #50514F;
-      }
-      .container {
-        text-align: center;
-      }
-      .button {
-        height: 100px;
-        width: 100px;
-        background-color: #247BA0;
-        border: 4px solid #70C1B3;
-        border-radius: 100px;
-        margin: 1px;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/connectfour.css">
+
+    <title> Connect Four | Alex Mei, UC Santa Barbara </title>
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="./index.html"><img src="./photos/website_logo.jpg" height="70px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home </a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link" href="./project.html"> Projects </a>
+            <ul class="nav navbar-nav dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="http://www.alexmeicooking.com"> Alexmeicooking </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./resume.html"> Resume </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./about.html"> About </a>
+            <ul class="nav navbar-nav dropdown-menu">
+              <li class="nav-item"><a class="nav-link" href="https://github.com/alexmeigz"> Github </a></li>
+              <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/alexmeigz/"> Linkedin </a></li>
+              <li class="nav-item"><a class="nav-link" href="mailto:alexmei@cs.ucsb.edu"> Email </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./foodtography.html"> Foodtography </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- body -->
     <div class="container">
-      <h1>Welcome to Connect Four!</h1>
-      <h2>The object of this game is to connect four of your chips in a row!</h2>
-      <h3>Let's get started!</h3>
-      <table align="center">
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-        <tr>
-          <td><button class="button" id="1" type="submit"></button></td>
-          <td><button class="button" id="2" type="submit"></button></td>
-          <td><button class="button" id="3" type="submit"></button></td>
-          <td><button class="button" id="4" type="submit"></button></td>
-          <td><button class="button" id="5" type="submit"></button></td>
-          <td><button class="button" id="6" type="submit"></button></td>
-          <td><button class="button" id="7" type="submit"></button></td>
-        </tr>
-      </table>
+      <div class="jumbotron">
+        <h1>Welcome to Connect Four!</h1>
+        <h4>Rules: Each player takes turns placing a chip horizontally down one of seven columns. The first player to connect four of your colored chips in a row while preventing their opponent from doing the same WINS!</h4>
+        <button type="button" class="btn btn-info"> New Game </button>
+        <h3 class="turntext">Let's get started!</h3>
+        <table align="center">
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+          <tr>
+            <td><button class="c4-button" id="1" type="submit"></button></td>
+            <td><button class="c4-button" id="2" type="submit"></button></td>
+            <td><button class="c4-button" id="3" type="submit"></button></td>
+            <td><button class="c4-button" id="4" type="submit"></button></td>
+            <td><button class="c4-button" id="5" type="submit"></button></td>
+            <td><button class="c4-button" id="6" type="submit"></button></td>
+            <td><button class="c4-button" id="7" type="submit"></button></td>
+          </tr>
+        </table>
+      </div>
     </div>
+
+    <!--bottombar-->
+    <nav class="nav navbar navbar-dark bottombar">
+      <div class="navbar-brand">
+        Alex Mei | &copy; 2020 All Rights Reserved.
+      </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="./javascript/style.js">  </script>
+    <script src="./javascript/connectfour.js"> </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
-  <script src="./javascript/connectfour.js"></script>
 </html>

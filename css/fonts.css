@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "Abel";
-    src: url("../fonts/abel.ttf");
-}
-
-@font-face {
   font-family: "Saira";
   src: url("../fonts/saira.ttf");
 }
 
 @font-face {
-  font-family: "Economica";
-  src: url("../fonts/economica.ttf");
+  font-family: "Advent";
+  src: url("../fonts/advent.ttf")
+}
+
+@font-face {
+  font-family: "Advent-Bold";
+  src: url("../fonts/advent-bold.ttf")
 }

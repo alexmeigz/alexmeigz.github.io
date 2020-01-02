@@ -1,0 +1,74 @@
+.jumbotron {
+  margin-top: 100px;
+  background-color: white;
+  min-height: 500px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.pictures {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: "Advent";
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 20px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 80px;
+  line-height: 120px;
+  font-family: "Saira";
+  font-variant: small-caps;
+}
+
+h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 60px;
+  line-height: 90px;
+  font-family: "Saira";
+  font-variant: small-caps;
+}
+
+h4 {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: "Saira";
+  margin-bottom: 50px;
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: inherit;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: #3b79b3;
+  font-family: "Advent-Bold";
+}
+
+button {
+  font-family: "Saira";
+  font-variant: small-caps;
+}
+
+.btn-info {
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}

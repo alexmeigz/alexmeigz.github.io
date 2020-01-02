@@ -1,5 +1,47 @@
 @import "fonts.css";
 
+.navbar {
+  background-color: #2a5a87;
+  font-family: "Saira";
+  font-variant: small-caps;
+  font-size: 40px;
+  padding: 10px 75px 10px 50px;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:active, .navbar-toggler:focus{
+  outline: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+.nav-item a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+  visibility: visible;
+  text-align: center;
+  display: block;
+  background-color: #3b79b3;
+  font-size: 30px;
+  min-width: 50px;
+}
+/*
 .nav {
   position: fixed;
   top: 0;
@@ -94,3 +136,4 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+*/

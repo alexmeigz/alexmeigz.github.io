@@ -1,28 +1,9 @@
-@import "nav.css";
 @import "fonts.css";
+@import "nav.css";
 @import "bottombar.css";
+@import "basic.css";
 
-.wrapper {
-  min-width: 1000px;
-  margin-top: 80px;
-}
-
-a:link, a:visited, a:active{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  text-decoration: none;
-  color: #3b79b3;
-  font-weight: bold;
-}
-
-.slideshow {
-  float: left;
-  margin: 75px 0px 0px 5%;
-  width: 30%;
-}
+/*
 
 .dot {
   height: 15px;
@@ -45,20 +26,5 @@ a:hover{
   height: 500px;
 }
 
-.welcome_header {
-  padding: 0 0 0 5%;
-  margin: 0 0% 0 10%;
-  font-size: 80px;
-  font-family: "Saira";
-  font-variant: small-caps;
-}
 
-.welcome_text {
-  margin: 0px 0px 0 20px;
-  font-family: "Abel";
-  font-size: 22px;
-  line-height: 33px;
-  text-align: justify;
-  text-justify: inter-word;
-  text-indent: 20px;
-}
+*/

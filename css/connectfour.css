@@ -1,0 +1,26 @@
+@import "fonts.css";
+@import "nav.css";
+@import "bottombar.css";
+@import "basic.css";
+
+
+* {
+  color: #50514F;
+}
+
+.container {
+  text-align: center;
+}
+
+.c4-button {
+  height: 100px;
+  width: 100px;
+  background-color: #247BA0;
+  border: 4px solid #70C1B3;
+  border-radius: 100px;
+  margin: 1px;
+}
+
+.turntext {
+  display: none;
+}

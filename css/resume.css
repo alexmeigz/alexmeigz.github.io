@@ -2,22 +2,12 @@
 @import "fonts.css";
 @import "bottombar.css";
 
-.wrapper {
-  min-width: 1000px;
-  margin-top: 80px;
+.jumbotron {
+  margin-top: 100px;
+  background-color: white;
 }
 
-a:link, a:visited, a:active{
-  text-decoration: none;
-  color: black;
-}
-
-a:hover{
-  text-decoration: none;
-  color: #3b79b3;
-  font-weight: bold;
-}
-
-.pdf {
-  margin: 100px 10% 0 10%;
+.resume {
+  min-height: 1200px;
+  min-width: 800px;
 }
