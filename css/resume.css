@@ -1,11 +1,7 @@
 @import "nav.css";
 @import "fonts.css";
 @import "bottombar.css";
-
-.jumbotron {
-  margin-top: 100px;
-  background-color: white;
-}
+@import "basic.css";
 
 .resume {
   min-height: 1200px;

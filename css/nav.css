@@ -1,31 +1,32 @@
-@import "fonts.css";
-
 .navbar {
-  background-color: #2a5a87;
   font-family: "Saira";
-  font-variant: small-caps;
-  font-size: 35px;
+  font-variant: all-small-caps;
+  font-size: 30px !important;
   padding: 5px 75px 5px 50px;
 }
 
-.navbar-toggler {
-  border-color: white;
+.navbar-title{
+  font-size: 36px;
+}
+
+.navbar-title:hover{
+  color: #2a5a87;
+  font-weight: bold;
 }
 
 .navbar-toggler:active, .navbar-toggler:focus{
   outline: 0;
 }
 
-.nav-link {
-  color: white;
-}
-
 .nav-item {
   margin: 0 10px;
 }
 .nav-item a:hover{
-  color: white;
   font-weight: bold;
+}
+
+.nav-item-logo{
+  margin: 0 !important;
 }
 
 .dropdown-menu {
@@ -37,103 +38,6 @@
   visibility: visible;
   text-align: center;
   display: block;
-  background-color: #3b79b3;
   font-size: 30px;
   min-width: 50px;
 }
-/*
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 90px;
-  width: calc(100% - 50px);
-  padding-right: 50px;
-  min-width: 790px;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  font-family: "Saira";
-  font-variant: small-caps;
-  font-size: 40px;
-  background-color: #2a5a87;
-  overflow: visible;
-}
-
-#logo {
-  float: left;
-  margin: 0px 0px 0px 3%;
-  padding: 0;
-  height: 85px;
-}
-
-#logo a {
-  padding: 0;
-}
-
-#logo a:hover {
-}
-
-.nav a {
-  float: right;
-  padding: 15px 20px 12px 20px;
-  display: block;
-  text-align: center;
-}
-
-.nav a:link, .nav a:visited, .nav a:active{
-  text-decoration: none;
-  color: white;
-}
-
-.nav a:hover {
-    background-color: #253959;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.dropdown {
-    float: right;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    margin: 0;
-    height: 90px;
-    margin: 0px -5px 0px -5px;
-    font-family: "Saira";
-    font-variant: small-caps;
-    font-size: 40px;
-    color: white;
-    background-color: #2a5a87;
-}
-
-.dropdown-content {
-    display: none;
-    border-top: 1px solid black;
-    margin: 0px 0px 0px 2px;
-    position: absolute;
-    background-color: #3b79b3;
-    color: white;
-}
-
-.dropdown-content a {
-    float: none;
-    padding: 10px 19px 10px 20px;
-    font-size: 32px;
-    text-align: center;
-    display: block;
-    text-align: center;
-}
-
-.dropdown-content a:hover {
-  background-color: #3c5378;
-  text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-*/

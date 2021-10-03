@@ -1,7 +1,10 @@
+* {
+  font-family: "Saira";
+}
+
 .jumbotron {
-  margin-top: 100px;
   background-color: white;
-  min-height: 500px;
+  min-height: calc(100vh - 150px);
 }
 
 .row {
@@ -14,7 +17,6 @@
 }
 
 p {
-  font-family: "Advent";
   font-size: 20px;
   line-height: 35px;
   text-align: justify;
@@ -27,19 +29,16 @@ p {
 h1 {
   text-align: center;
   width: 100%;
-  font-size: 80px;
-  line-height: 120px;
-  font-family: "Saira";
-  font-variant: small-caps;
+  font-size: 40px;
+  line-height: 60px;
 }
 
 h3 {
   text-align: center;
   width: 100%;
-  font-size: 60px;
-  line-height: 90px;
-  font-family: "Saira";
-  font-variant: small-caps;
+  font-size: 40px;
+  line-height: 60px;
+  font-variant: all-small-caps;
 }
 
 h4 {
@@ -47,7 +46,6 @@ h4 {
   width: 100%;
   font-size: 30px;
   line-height: 45px;
-  font-family: "Saira";
   margin-bottom: 50px;
 }
 
@@ -62,7 +60,6 @@ p a:hover{
 }
 
 button {
-  font-family: "Saira";
   font-variant: small-caps;
 }
 
@@ -73,7 +70,6 @@ button {
 }
 
 .item {
-  font-family: "Advent";
   font-size: 20px;
   line-height: 40px;
 }
