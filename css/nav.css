@@ -1,5 +1,4 @@
 .navbar {
-  font-family: "Saira";
   font-variant: all-small-caps;
   font-size: 30px !important;
   padding: 5px 75px 5px 50px;
@@ -11,7 +10,7 @@
 
 .navbar-title:hover{
   color: #2a5a87;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .navbar-toggler:active, .navbar-toggler:focus{
@@ -22,7 +21,7 @@
   margin: 0 10px;
 }
 .nav-item a:hover{
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .nav-item-logo{

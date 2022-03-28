@@ -1,0 +1,20 @@
+@import "fonts.css";
+@import "nav.css";
+@import "bottombar.css";
+@import "basic.css";
+
+.item-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.item-authors {
+}
+
+.item-venue {
+
+}
+
+.item-link {
+
+}
