@@ -60,7 +60,30 @@
     <!-- body -->
     <div class="container">
       <div class="jumbotron">
-        <img width=100% src="./documents/presentations/fact_ai_safety.jpeg" class="main-image" alt="...">
+        <h1> CS 291 Research Project </h1>
+        <p> Due to the nature of this ongoing research, the contents below are proprietary and confidential. Do not redistribute. </p>
+        
+        <h3> Video Presentation </h3>
+        <video width=100% controls> 
+            <source src="./documents/presentations/fact_ai_safety.mp4" type="video/mp4" />
+        </video>
+
+        <h3> Poster Showcase </h3>
+        <img width=100% src="./documents/presentations/fact_ai_safety.jpeg" class="main-image" alt="..." />
+
+        <h3> Likely Questions </h3>
+        <ul>
+            <li> <b> Q. Could you elaborate more about Covertly Unsafe Text? </b> A: Yes, please refer to the [<a href="./documents/presentations/covertly_unsafe_text.pdf">poster</a>], [<a href="https://drive.google.com/file/d/19p_vUoM5s2nKB6-4tjRZyb2KEa80nmhf/view?usp=share_link">presentation</a>], and [<a href="https://arxiv.org/abs/2210.09306">paper</a>] for more details. </li>
+            <li> <b> Q. In the problem formulation, what are f(.) and g(.)? </b> A: They are functions that we wish to optimize to produce rationales for various scenarios, given the model and additional knowledge. </li>
+            <li> <b> Q. How does this work differ from Fact Verification research, such as work done on FEVER? </b> A: In fact checking, the additional knowledge needed is given. In rationale generation, this is an unknown. </li>
+            <li> <b> Q. How is the attribution task exactly performed? </b> A: This is outside the scope of this class. For this presentation, I queried Google for the top 3 snippets and appended them together. </li>
+            <li> <b> Q. How does this work differ from existing Model + Search research? </b> A: This project significantly contributes to the advancement of AI Safety by providing human-interpretable rationales that are attributed to trustworthy sources to improve user confidence. </li>
+            <li> <b> Q. What model do you use to run your experiments? </b> A: GPT-3, Text Davinci 003. </li>
+            <li> <b> Q. Why do we need to perform human evaluation? </b> A: The task we are interested in is particularly difficult because there is no known ground truth. Therefore, a human expert must manually verify whether the rationales are correct, and whether they are indeed attributed correctly. </li>
+            <li> <b> Q. Why do you use such a small sample size for human evaluation? </b> A: The original SafeText dataset has only around 1000 total examples. I selected what I felt was like a reasonable subset to report meaningful results, though the experiments will be scaled as part of ongoing research. (You should also try doing your own human annotations to see how much of a joy it is that will make you want to do more!) </li>
+            <li> <b> Q. Is it more desirable to see an increase in uncertainty for incorrect classifications and generations? </b> A: Ideally, yes. In the event of misinformation, the ideal outcome is the uncertainty will increase because the internal and external knowledge conflict. Unfortunately, by assumption of our task of interest, the internal knowledge is not sufficient, and we must rely solely on the external knowledge, so the model must be rather confident it is not fed with misinformation. </li>
+            <li> <b> Q. Can you answer a different question than those listed here? </b> A: I am traveling to Abu Dhabi to present my paper on Covertly Unsafe Text at this time. Depending on what methods of contact you have with me, I can respond via Slack, text, or at the very least, email. For email, use the icon in the navbar. </li>
+        </ul>
       </div>
     </div>
 
