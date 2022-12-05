@@ -1,0 +1,20 @@
+@import "fonts.css";
+@import "nav.css";
+@import "bottombar.css";
+@import "basic.css";
+
+.small-image {
+    border-radius: 10px;  
+    width: 300px;
+    margin: 25px calc(50% - 150px);
+  }
+  
+.large-image {
+    border-radius: 10px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+a:hover {
+    color: #3b79b3;
+}
