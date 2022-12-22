@@ -1,11 +1,12 @@
 .navbar {
   font-variant: all-small-caps;
   font-size: 30px !important;
-  padding: 5px 75px 5px 50px;
+  padding: 5px 25px 5px 25px;
 }
 
 .navbar-title{
   font-size: 36px;
+  min-width: 80px;
 }
 
 .navbar-title:hover{
