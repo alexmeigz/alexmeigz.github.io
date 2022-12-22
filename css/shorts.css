@@ -1,0 +1,12 @@
+@import "nav.css";
+@import "fonts.css";
+@import "bottombar.css";
+@import "basic.css";
+
+
+.shorts {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin: 10px calc(50% - 150px);
+}
