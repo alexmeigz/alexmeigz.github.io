@@ -54,6 +54,7 @@ h4 {
 a:link, a:visited, a:active{
   text-decoration: none;
   color: inherit;
+  font-weight: 300;
 }
 
 p a:hover{
